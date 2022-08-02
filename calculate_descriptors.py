@@ -9,6 +9,7 @@ from ase import Atoms
 from ase.spacegroup import get_spacegroup
 import numpy as np
 
+# The following dictionary describes the column number of the periodic table for each element.
 PTE = {1: 1, 2: 2, 3: 1, 4: 2, 5: 13, 6: 14, 7: 15, 8: 16, 9: 17, 10: 18, 11: 1, 12: 2, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17, 18: 18, 19: 1, 20: 2, 
     21: 3, 22: 4, 23: 5, 24: 6, 25: 7, 26: 8, 27: 9, 28: 10, 29: 11, 30: 12, 31: 13, 32: 14, 33: 15, 34: 16, 35: 17, 36: 18, 37: 1, 38: 2, 39: 3, 40: 4,
     41: 5, 42: 6, 43: 7, 44: 8, 45: 9, 46: 10, 47: 11, 48: 12, 49: 13, 50: 14, 51: 15, 52: 16, 53: 17, 54: 18, 55: 1, 56: 2, 57: 3, 72: 4, 73: 5, 74: 6, 
